@@ -517,22 +517,76 @@ img {vertical-align: middle;}
 }
 
 
-.forth{
 
-    width: auto;
-    height: 100vh;
+.sec4 {
     background-color: white;
+    height: 92vh;
+    position: relative;
+    z-index: 12;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+}
 
+.tlcnt {
+    color: black;
+    text-align: center;
+    font-size: 375%;
+    font-weight: bold;
+    /* border: 1px solid blue; */
 }
-.contact{
-    float: bottom;
-    height: 88vh;
-    width: auto;
-    background-color: white;
+
+.subt {
+    text-align: center;
+    color: black;
+    font-size: 125%;
+    /* border: 1px solid green; */
 }
+
+
+.inputs {
+
+    background-color: black;
+    height: 40vh;
+    width: 40%;
+    height: 50vh;
+    padding: 10px;
+    margin-top:8%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+    
+  
+}
+
+
+.inputs input, textarea {
+
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 106.25%;
+    padding: 10px;
+}
+
+.btnsub {
+    width: 150px;
+    border-radius: 15px;
+    padding: 10px 5px;
+    color: white;
+    background-color: crimson;
+}
+
+
+
+
 .footer{
     float: bottom;
-    height: 12vh;
+    height: 8vh;
     width: auto;
     background-color: black;
 }
