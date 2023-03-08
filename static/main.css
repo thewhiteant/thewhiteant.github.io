@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 *{
     margin: 0;
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
 }
 
 /* global css */
@@ -32,21 +33,24 @@ body::-webkit-scrollbar{
     position: relative;
     background-image: url("/images/MainSectionBG.png") ;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
+    overflow: hidden;
    
 }
 
 .logo{
+    font-family: 'Pacifico', cursive;
     position: absolute;
     color: white;
-    font-size: 50pt;
+    font-size: 4.1em;
     right: 5%;
     top: 7%;
 }
 
 
 .navbar{
+    font-family: 'Pacifico', cursive;
     position: absolute;
     right: 0%;  
     top: 40%;
@@ -59,24 +63,29 @@ body::-webkit-scrollbar{
 
 .prop {
     color: white;
-    font-size: 20pt;
+    font-size: 1.6em;
 }
 
 .cypher{
-    
+   
     position: absolute;
     right: 14%;
     bottom: 0%;
 }
 
+.cypher img{
+     max-width: 80%;
+}
+
 
 
  .maintxt{
+    font-family: 'Pacifico', cursive;
     position: absolute;
     top: 35%;
     left: 12%;
     color:white;
-    font-size: 60;
+    font-size: 4em;
 }
 
 .navbar a:hover{
@@ -85,7 +94,8 @@ body::-webkit-scrollbar{
 }
 
 .maintxt div:hover{
-    color:B7B8B8;
+
+    color:#B7B8B8;
 }
 
 
@@ -108,13 +118,22 @@ body::-webkit-scrollbar{
 
 } 
 
+
+
+
+
+
+
 .second{
   
     background-color: #eeeeee ;
     width: auto;
     height: 100vh;
+    overflow: hidden;
     
 }
+
+
 
 
 
@@ -127,14 +146,17 @@ body::-webkit-scrollbar{
     width: 50%;
     height: 100%;
     float: left;
+    overflow: hidden;
+
     
 
 }
 
 .titlesnd{
+    
     color: white;
     position: absolute;
-    font-size: 55pt;
+    font-size: 4.6em;
     top: 20%;
     left: 38%;
 
@@ -147,7 +169,7 @@ body::-webkit-scrollbar{
     top:30%;
     left: 43%;
     text-align: center;
-    font-size: 125%;
+    font-size: 1.25em;
     color: white;
     font-family: 'Pacifico', cursive;
 }
@@ -173,6 +195,7 @@ body::-webkit-scrollbar{
 
 
 .blk{
+    text-align: center;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     position: relative;
@@ -182,6 +205,7 @@ body::-webkit-scrollbar{
     width: 25vh;
     padding: 5px;
     background-color: #333232;
+    overflow: hidden;
 }
 
 .blk:hover{
@@ -190,19 +214,19 @@ body::-webkit-scrollbar{
 }
 
 #bugx{
-    position: absolute;
-    right: 30%;
-    margin-top: 45px;
-    font-size: 100px;
+    /* position: absolute; */
+    /* right: 30%; */
+    margin: 30px;
+    font-size: 6.25em ;
 
 
 
 }
 .txt{
-    position: absolute;
-    left: 23%;
-    bottom: 20%;
-    font-size: 20PX;
+ 
+    font-family: 'Pacifico', cursive;
+
+    font-size: 1.25em;
 
 }
 
@@ -220,9 +244,10 @@ body::-webkit-scrollbar{
 
 
 .titlesndtwo{
+    font-family: 'Pacifico', cursive;
     color: black;
     position: absolute;
-    font-size: 55pt;
+    font-size: 4.6em;
     top: 5%;
     right: 38%;
 
@@ -258,7 +283,7 @@ body::-webkit-scrollbar{
     top:20%;
     left: 20%;
     text-align: center;
-    font-size: 35px;
+    font-size: 2.18em;
     color: black;
     font-family: 'Pacifico', cursive;
 
@@ -268,7 +293,7 @@ body::-webkit-scrollbar{
     top:20%;
     right: 20%;
     text-align: center;
-    font-size: 35px;
+    font-size: 2.18em;
     color: black;
     font-family: 'Pacifico', cursive;
 }
@@ -283,8 +308,9 @@ body::-webkit-scrollbar{
     box-shadow: 5.6px 11.2px 11.2px hsl(0deg 0% 0% / 0.33);
     color: black;
     width:85%;
-    height: 70px;
+    height: 11%;
     padding: 10px;
+    overflow: hidden;
     
 }
 
@@ -293,6 +319,7 @@ body::-webkit-scrollbar{
         position: absolute;
         left: 10%;
         top: 15%;
+        
 
 }
 
@@ -300,8 +327,10 @@ body::-webkit-scrollbar{
     position: absolute;
    font-family: 'Tilt Prism', cursive;
    font-weight: bold; 
+   font-size: 3em;
    top:15%;
    right:10%;
+   
 
 
 }
@@ -335,8 +364,9 @@ body::-webkit-scrollbar{
     box-shadow: 5.6px 11.2px 11.2px hsl(0deg 0% 0% / 0.33);
     color: black;
     width:85%;
-    height: 70px;
+    height: 11%;
     padding: 10px;
+    overflow: hidden;
     
 }
 
@@ -352,6 +382,7 @@ div.project a{
    position: absolute;
    font-family: 'Tilt Prism', cursive;
    font-weight: bold; 
+   font-size: 3em;
    top:15%;
    right:10%;
 
@@ -390,7 +421,7 @@ div.project a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
      color: white;
-    font-size: 55pt;
+    font-size: 4.6em;
     top: 10%;
     left: 30%;
     font-weight: bold;
@@ -399,23 +430,32 @@ div.project a{
 
 
 .mydata{
+    font-family: 'Pacifico', cursive;
     position: absolute;
     color: black;  
     width: 100%;
     height:70vh ;
     bottom: 0%;
-    font-size: 30pt;
+    font-size: 1em;
     font-weight: bold;
     background-color: rgba(224, 224, 222, 0.7);
-
+    
 }
 
+
+
+.cover::-webkit-scrollbar{
+    display: none;
+}
+
+
 .cover{
- 
+     -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
     position: absolute;
-    
+    overflow: scroll;
     top: 25%;
-    left: 10%;
+    left: 5%;
     background-color:#eeeeee;
     width: 75vh;
     height: 40vh;
@@ -431,7 +471,7 @@ div.project a{
 
 .mydata p{
 
- font-size: 30pt;
+ font-size: 2.50em;
  margin-left: 8%;
  margin-top: 1%;
 }
@@ -442,28 +482,36 @@ div.project a{
     float: right;
     height: 100vh;
      position: relative;
+     overflow: hidden;
     
 }
 
 
 /* copy from  */
 /* * {box-sizing: border-box;} */
-.mySlides {display: none;}
+.mySlides {display: none;
+  
+}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
- max-width: 500px;
  position: absolute;
+ padding: 10px;
  top: 2%;
  left: 25%;
  margin: auto;
+ 
+
+}
+.sliderimage{
+    max-width: 100%;
 }
 
 /* Caption text */
 .text {
   color: black;
-  font-size: 30px;
+  font-size: 1.8em;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -474,7 +522,7 @@ img {vertical-align: middle;}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 0.75em;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -500,45 +548,51 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+  .text {font-size: 0.66em}
 }
 
 /* ei porjontt */
-
-
 
 
 .bahu{
     position: absolute;
     left: 10%;
     background-color: #ebebeb;
-    height: 400px;
-    width: 18px;
+    height: 40%;
+    width: 2%;
+    
+}
+
+
+
+.forth{
+    margin: auto;
 }
 
 
 
 .sec4 {
+    text-align: center;
     background-color: white;
-    height: 92vh;
+    height: 90vh;
     position: relative;
-    z-index: 12;
     margin-top: 20px;
     font-family: 'Pacifico', cursive;
 }
 
 .tlcnt {
+    margin-top: 60px;
     color: black;
     text-align: center;
-    font-size: 375%;
+    font-size: 3.57em;
     font-weight: bold;
     /* border: 1px solid blue; */
 }
 
 .subt {
-    text-align: center;
+    /* text-align: center; */
     color: black;
-    font-size: 125%;
+    font-size: 1.25em;
     /* border: 1px solid green; */
 }
 
@@ -546,31 +600,28 @@ img {vertical-align: middle;}
 .inputs {
 
     background-color: black;
-    height: 40vh;
     width: 40%;
     height: 50vh;
     padding: 10px;
-    margin-top:8%;
+    margin-top:5%;
     margin-left: auto;
     margin-right: auto;
-
-
-
-
+    padding: 50px;
     
+   
   
 }
 
 
 .inputs input, textarea {
 
-    margin-left: 30%;
+
     margin-top: 4%;
-    width: 40%;
+    width: 60%;
     text-align: center;
     border-radius: 5px;
-    font-size: 106.25%;
-    padding: 10px;
+    font-size: 1.0625em;
+    padding: 15px;
 }
 
 .btnsub {
@@ -582,12 +633,631 @@ img {vertical-align: middle;}
 }
 
 
-
-
-.footer{
-    float: bottom;
+.sec5 {
     height: 8vh;
-    width: auto;
     background-color: black;
+    position: relative;
+
+}
+.foot {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+@media screen and (min-width:3840px) and (max-width:5000px) {
+  
+    .maintxt {
+        font-size: 8.0em;
+    }
+    div.logo{
+        font-size: 10.00em;
+    }
+    a.prop{
+        font-size: 5.00em;
+    }
+    .bar{
+        width: 100%;
+        
+    }
+    .cypher img{
+
+        width: 1500px;
+    }
+
+    .titlesnd{
+        font-size: 12.54em;
+    }
+    .subtil{
+        font-size: 3.34em;
+        margin-top: 50px;
+    }
+    .widgetpanel{
+        bottom: 15%;
+    }
+    
+
+    #bugx{
+        font-size: 13.38em;
+        margin-top: 20%;
+    }
+    .txt{
+        
+        font-size: 3.34em;
+    }
+
+    .titlesndtwo{
+             font-size: 12.54em;
+    }
+    .subskill{
+         font-size: 4.18em;
+    }
+    
+    .subsproj{
+             font-size: 4.18em;
+    }
+    .third_left_titile{
+         font-size: 12.54em;
+    }
+    .mydata {
+        font-size: 2em;
+    }
+
+    .sliderimage{
+        width: 10000px;
+    }
+
+    .tlcnt{
+        font-size: 12.54em;
+    }
+    .subt{
+        font-size: 4.18em;
+    }
+
+    .inputs input{
+  
+        width: 60%;
+        height: 7vh;
+        font-size: 2em;
+      
+        
+    }
+    .foot{
+        font-size: 2em;
+    }
+
+}
+
+
+@media screen and (min-width:1401px)  and (max-width:1900px) {
+
+    .maintxt {
+        font-size: 3em;
+    }
+   
+   .blk{
+        margin: 10px;
+    width: 20vh;
+    height: 15vh;
+   }
+    #bugx {
+
+        font-size: 3em;
+    }
+    .txt{
+        font-size: 1em;
+    }
+    .widgetpanel{
+        bottom: 10%;
+    }
+
+    .enterfont{
+        font-size: 2em;;
+    }
+    .enterfontwo{
+           font-size: 2em;;
+    }
+    .cover{
+        width: 80%;
+    }
+    
+    .mydata{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (min-width:1360px)  and (max-width:1400px) {
+
+
+    .maintxt {
+        font-size: 2.5em;
+    }
+    .cypher{
+        width: 35%;
+    }
+
+    .blk{
+            margin: 10px;
+    width: 20vh;
+    height: 15vh;
+   }
+   
+    #bugx {
+   
+        font-size: 3em;
+    }
+    .txt{
+        font-size: 1em;
+    }
+ 
+
+    .enterfont{
+        font-size: 2em;;
+    }
+    .enterfontwo{
+           font-size: 2em;;
+    }
+    .cover{
+        width: 80%;
+    }
+    
+    .mydata{
+        font-size: 0.75em;
+    } 
+
+
+    .inputs {
+        
+        margin-top: 15px;
+        
+        
+    }
+
+}
+
+
+@media screen and (min-width:801px)  and (max-width:1359px) {
+
+
+    .maintxt {
+        font-size: 2.5em;
+    }
+    .cypher{
+        width: 35%;
+    }
+
+    .blk{
+        margin: 10px;
+    width: 20vh;
+    height: 15vh;
+
+   }
+   
+   
+    #bugx {
+
+        font-size: 3em;
+    }
+    .txt{
+     
+        font-size: 1em;
+    }
+ 
+
+    .enterfont{
+        font-size: 1.5em;
+    }
+    .enterfontwo{
+           font-size: 1.5em;
+    }
+    .cover{
+        width: 80%;
+    }
+    
+    .mydata{
+        font-size: 0.73em;
+    } 
+
+
+    .inputs {
+        
+        margin-top: 15px;
+        
+        
+    }
+
+}
+
+@media screen and (min-width:501px)  and (max-width:800px) {
+
+    .logo{
+        font-size: 2em;  
+    }
+    .maintxt{
+        font-size: 1em;
+    }
+    .cypher{
+        width: 70%;
+    }
+    .navbar{
+
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+    }
+    .bar{
+ 
+        width: 100%;
+    }
+    .prop{
+        font-size: .6em;
+    }
+
+    .titlesnd{
+        left: 20%;
+        font-size: 2em;
+    }
+
+    .subtil{
+        top: 25%;
+        left: 30%;
+        font-size: 0.5em;
+    }
+    .widgetpanel{
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        bottom: 10%;
+        
+        
+    }
+
+    .blk{
+        height: 15vh;
+        width: 15vh;
+    }
+    #bugx{
+        font-size: 3em;
+
+    }
+    .txt{
+        font-size: 0.5em;
+    }
+    .titlesndtwo{
+            font-size: 2em;
+            left: 25%;
+            top:10%;
+    }    
+    .subskill{
+        font-size: 1em;
+    }
+    .subsproj{
+        font-size: 1em;
+    }
+
+
+    .skill{
+        
+        font-size: 0.2em;
+        padding: 5px;
+        margin: 5px;
+        height: 4vh;
+    }
+    .projectbox{
+          margin: 0;
+          padding: 0;
+    }
+    .project{
+            
+        font-size: 0.2em;
+        padding: 5px;
+        margin: 5px;
+        height: 4vh;
+    }
+
+    .third_left_titile{
+        left: 10%;
+        font-size: 2em;
+    }
+    .cover{
+       
+        width: 70%;
+        height: 40%;
+        margin: auto;
+
+        
+    }
+    .mydata{
+        
+        font-size: 0.32em;
+        
+
+    }
+    .mydata p{
+        padding: 2px;
+    }
+
+    .slideshow-container{
+        top: 20%;
+        left: 10%;
+
+        height: 80%;
+        width: 75%;
+
+
+    }
+
+    .inputs{
+        width: 60%;
+        height: 45%;
+    }
+    .inputs input{
+        width: 100%
+    }
+
+    .foot{
+    
+        bottom: 0px;
+        font-size: 0.8em;
+       
+    }
+
+}
+
+
+@media screen and (min-width:300px)  and (max-width:500px) {
+
+    .logo{
+        font-size: 2em;  
+    }
+    .maintxt{
+        font-size: 1em;
+    }
+    .cypher{
+        width: 70%;
+    }
+    .navbar{
+
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+    }
+    .bar{
+ 
+        width: 100%;
+    }
+    .prop{
+        font-size: .6em;
+    }
+
+    .titlesnd{
+        left: 20%;
+        font-size: 2em;
+    }
+
+    .subtil{
+        top: 25%;
+        left: 30%;
+        font-size: 0.5em;
+    }
+    .widgetpanel{
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        bottom: 10%;
+        
+        
+    }
+
+    .blk{
+            margin: 10px;
+        height: 15vh;
+        width: 15vh;
+    }
+    #bugx{
+        font-size: 3em;
+        margin: 20px;
+    }
+    .txt{
+        font-size: 0.5em;
+    }
+    .titlesndtwo{
+            font-size: 2em;
+            left: 25%;
+            top:10%;
+    }    
+    .subskill{
+        font-size: 1em;
+    }
+    .subsproj{
+        font-size: 1em;
+    }
+
+
+    .skill{
+        
+        font-size: 0.2em;
+        padding: 5px;
+        margin: 5px;
+        height: 2vh;
+    }
+    .projectbox{
+          margin: 0;
+          padding: 0;
+          
+    }
+    .project{
+            
+        font-size: 0.2em;
+        padding: 5px;
+        margin: 5px;
+        height: 2vh;
+    }
+
+    .third_left_titile{
+        left: 10%;
+        font-size: 2em;
+    }
+    .cover{
+       
+        width: 70%;
+        height: 40%;
+        margin: auto;
+
+        
+    }
+    .mydata{
+        
+        font-size: 0.32em;
+        
+
+    }
+    .mydata p{
+        padding: 2px;
+    }
+
+    .slideshow-container{
+        top: 20%;
+        left: 10%;
+
+        height: 80%;
+        width: 75%;
+
+    }
+    .tlcnt{
+        font-size: 2em;
+    }
+    .subt{
+        font-size: 1em;
+    }
+
+    .inputs{
+        width: 60%;
+        height: 45%;
+    }
+    .inputs input{
+        width: 100%
+    }
+
+    .foot{
+    
+        bottom: 0px;
+        font-size: 0.8em;
+       
+    }
+
+}
+
+
+@media screen and (min-width:0px)  and (max-width:300px) {
+
+    .logo{
+        font-size: 1em;  
+    }
+
+    .cypher{
+        width: 50%;
+    }
+
+    .prop{
+        font-size: .5em;
+    }
+
+    .titlesnd{
+        top:10%;
+    }
+
+    .subtil{
+        top: 20%;
+
+    }
+ 
+
+    .blk{
+            margin: 10px;
+        height: 15vh;
+        width: 15vh;
+    }
+
+    #bugx{
+        font-size: 1em;
+        margin: 10px;
+    }
+    .txt{
+        font-size: 0.5em;
+    }
+    
+    .titlesndtwo{
+            font-size: 2em;
+
+            top:7%;
+    }    
+    .subskill{
+        font-size: 0.8em;
+    }
+    .subsproj{
+        font-size: 0.8em;
+    }
+
+
+    .skill{
+        
+        font-size: 0.15em;
+
+    }
+
+
+
+
+    .third_left_titile{
+        left: 20%;
+        font-size: 1.4em;
+    }
+
+    .cover{
+       
+        width: 60%;
+        height: 50%;
+
+
+        
+    }
+    .mydata{
+        
+        font-size: 0.23em;
+        
+
+    }
+
+
+
+
+    .inputs input{
+        margin-top: 0px;
+        height: 20%;
+        width: 80%
+    }
+
+    
+    .foot{
+
+  
+        background-color: black;
+        font-size: 0.1em;
+       
+    }
+
 }
 
