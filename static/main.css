@@ -94,6 +94,7 @@ body::-webkit-scrollbar{
 }
 
 .maintxt div:hover{
+  
 
     color:#B7B8B8;
 }
@@ -201,8 +202,8 @@ body::-webkit-scrollbar{
     position: relative;
     text-align: center;
     margin: 10px;
-    height: 25vh;
-    width: 25vh;
+    height: 40%;
+    width: 25%;
     padding: 5px;
     background-color: #333232;
     overflow: hidden;
@@ -648,16 +649,14 @@ img {vertical-align: middle;}
 
 
 
-@media screen and (min-width:3840px) and (max-width:5000px) {
+@media screen and (min-width:3000px) and (max-width:5000px) {
   
-    .maintxt {
-        font-size: 8.0em;
-    }
+
     div.logo{
         font-size: 10.00em;
     }
     a.prop{
-        font-size: 5.00em;
+        font-size: 4em;
     }
     .bar{
         width: 100%;
@@ -681,12 +680,12 @@ img {vertical-align: middle;}
     
 
     #bugx{
-        font-size: 13.38em;
-        margin-top: 20%;
+        font-size: 10em;
+        margin-top: 25%;
     }
     .txt{
         
-        font-size: 3.34em;
+        font-size: 2em;
     }
 
     .titlesndtwo{
@@ -739,9 +738,9 @@ img {vertical-align: middle;}
     }
    
    .blk{
-        margin: 10px;
-    width: 20vh;
-    height: 15vh;
+
+    width: 40%;
+    height: 25%;
    }
     #bugx {
 
@@ -780,11 +779,7 @@ img {vertical-align: middle;}
         width: 35%;
     }
 
-    .blk{
-            margin: 10px;
-    width: 20vh;
-    height: 15vh;
-   }
+
    
     #bugx {
    
@@ -831,13 +826,23 @@ img {vertical-align: middle;}
     }
 
     .blk{
-        margin: 10px;
-    width: 20vh;
-    height: 15vh;
+ 
+    width: 40%;
+    height: 25%;
 
    }
+   .titlesnd{
+        left: 20%;
+      
+    }
+    .subtil{
+        left: 30%;
+    }
    
-   
+    .titlesndtwo{
+        left: 20%;
+
+    }
     #bugx {
 
         font-size: 3em;
@@ -1120,12 +1125,13 @@ img {vertical-align: middle;}
     }
     .mydata{
         
-        font-size: 0.32em;
+        font-size: 0.3em;
         
 
     }
     .mydata p{
         padding: 2px;
+ 
     }
 
     .slideshow-container{
@@ -1161,7 +1167,7 @@ img {vertical-align: middle;}
 }
 
 
-@media screen and (min-width:0px)  and (max-width:300px) {
+@media screen and (min-width:0px)  and (max-width:320px) {
 
     .logo{
         font-size: 1em;  
@@ -1186,9 +1192,8 @@ img {vertical-align: middle;}
  
 
     .blk{
-            margin: 10px;
-        height: 15vh;
-        width: 15vh;
+    height: 25%;
+        width: 40%;
     }
 
     #bugx{
@@ -1260,4 +1265,3 @@ img {vertical-align: middle;}
     }
 
 }
-

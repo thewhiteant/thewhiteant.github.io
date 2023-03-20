@@ -7,13 +7,14 @@
 
         <link rel="stylesheet" href="static/main.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <script src="/static/slide.js"></script>
+       <script src="/static/main.js"></script>
+       <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
          </head> 
          <body>
         <div class="container">
                 <div id="first" class="first">
 
-                    <div class="logo">White<div class="redc">/|</div>nt.</div>
+                    <div class="logo"></div>
                     <div class="navbar">
                         
                        <li> <a class="prop" style="color: crimson;"  onmouseover ="this.style.color='white'" onmouseout ="this.style.color='crimson'" href="#first">Home</a><br/> <img class="bar"  src="/images/horizon.png" alt=""> </li>
@@ -30,7 +31,7 @@
                  
                     <div class="maintxt"> 
                         <div class="line1">I am!&nbsp;&nbsp;&nbsp;&nbsp;"Ummmm"?</div>
-                        <div class="line2">  ooh  I am White<div class="redc">_ant.</div></div>
+                        <div class="line2"> ooh&nbsp; I am <span class="nam"></span> </div>
                         <div class="line3"> You Are?..<div class="redc">..<a href="#forth"></div>...</a></div>
                     </div>   
 
@@ -103,11 +104,11 @@
                         <div class="third_left_titile">About <div style="color: red; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;display: inline;">Me</div></div>
                         <div class="mydata">
                             <div class="cover" >
-                            <p class="mainlinet">"I am Rafi Rahman,</p>
+                            <p class="mainlinet">"I am <span class="smnam"></span>,</p>
                             <p>Known as White<span style="color: red;">_ant</span> also.</p>
                             <p>I am a Student currently studying</p>
                             <p> At Ranada Prasad Shaha University</p>
-                            <p>I am also know as  test objet "</p>
+                            <p>I know basic <span id="tb"></span>"</p>
                             </div>
                         </div>
                         
@@ -157,12 +158,12 @@
                   <div class="tlcnt">Contact <div class="ant" style="display: inline; color:red" >Me</div></div>
                   <div class="subt">--Get In Touch--</div>
                   <div class="inputs">
-                    <form onsubmit="return IsEmpty();" action="#" method="POST">
+                    <form id = "myForm" onsubmit="return IsEmpty();" action="#" method="post">
                     <input class="name" type="text" id="name" name="name" value="" autocomplete="off" placeholder="Name"><br>
                     <input class="email" type="email" id="email" name="email" value="" autocomplete="off" placeholder="Email"><br>
                     <input class="subjec" type="text" id="sub" name="sub" value="" autocomplete="off" placeholder="Subject"><br>
                     <input type="text" name="msg" id="msg" class="spcls" value="" autocomplete="off" placeholder="Message"><br>
-                    <input class="btnsub" type="submit" value="Send Message">
+                    <input class="btnsub" onclick="chkempt();" value="Send Message">
                   </form>
                   </div>
               </section>
@@ -172,6 +173,14 @@
                  </div>
               </section>
         </div>   
+
+
+
+
+
+
+
+  
 <script>
 
 let slideIndex = 0;
@@ -193,7 +202,85 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
+
+
+
+
+// 
+
+var typed = new Typed('.logo', {
+  strings: [
+    'White<div class="redc">/|</div>nt.',
+    'White<div class="redc">|A|</div>nt.',
+    '|White<div class="redc">/|</div>nt.|',
+    'White<div class="redc">|A|</div>nt.',
+
+  
+
+    
+
+    ],
+  typeSpeed: 20,
+  backSpeed: 20,
+  loop:true
+
+});
+
+
+var typed = new Typed('.nam', {
+  strings: [
+    'White<div class="redc">_ant.</div>',
+    'Rafi<div class="redc">_Rahman</div>',
+    'Tyibor<div class="redc">_Rahman</div>',
+
+    
+
+    ],
+  typeSpeed: 40,
+  backSpeed: 40,
+  loop:true
+
+});
+
+
+var typed = new Typed('#tb', {
+  strings: [
+    'ht<div class="redc">ml</div>',
+    'cs<div class="redc">s</div>',
+    'java<div class="redc">script</div>',
+    'ph<div class="redc">p</div>',
+    'ja<div class="redc">va</div>',
+    'py<div class="redc">thon</div>',
+    
+
+    
+
+    ],
+  typeSpeed: 40,
+  backSpeed: 40,
+  loop:true
+
+});
+
+
+var typed = new Typed('.smnam', {
+  strings: [
+    
+    'Rafi Rahman',
+    'Tyibor Rahman',
+
+    
+
+    ],
+  typeSpeed: 40,
+  backSpeed: 40,
+  loop:true
+
+});
+
 </script> 
+
+
 </body>
 
 
